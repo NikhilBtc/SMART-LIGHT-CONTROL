@@ -1,1 +1,15 @@
 # SMART-LIGHT-CONTROL
+
+*COMPANY*: CODTECH IT SOLUTIONS
+
+*NAME*: M NIKHIL KISHORE
+
+*INTERN ID*: CT08DG1615
+
+*DOMAIN: INTERNET OF THINGS
+
+*DURATION*: 4 WEEEKS
+
+*MENTOR*: NEELA SANTOSH
+
+## The Smart Light Control project is a basic prototype that demonstrates how a smart lighting interface can be built using only front-end technologies. Developed entirely in Visual Studio Code, this project uses HTML and embedded JavaScript to create a simple, user-friendly web interface that simulates the remote control of a light—typically represented by an LED. The project does not include any backend programming or physical hardware connection; instead, it serves as a conceptual model of how a user might interact with a smart home lighting system through a browser.The core of the project is a clean and responsive web page containing two interactive buttons: “Turn ON” and “Turn OFF.” These buttons are styled using basic CSS for visual clarity and accessibility on mobile devices. When a user clicks either button, a JavaScript function is triggered, sending an HTTP request using the fetch() API to a URL such as /light?state=on or /light?state=off. Although no server or hardware is actively processing these requests in this version, the structure simulates how such commands would typically be sent to an IoT device, such as a Wi-Fi-enabled microcontroller (like ESP8266 or ESP32) in a real-world application.This HTML-only version is particularly useful for design validation, frontend development practice, and demonstrating how IoT systems can be visually controlled. It represents the first step in a larger smart home or automation system, where the interface is separated from the device logic. The use of Visual Studio Code provided an efficient and professional environment for writing, organizing, and previewing the HTML and JavaScript code. Its features, such as real-time code suggestions, syntax highlighting, and live preview extensions, made development faster and more accurate.The project has practical relevance in today’s world where smart homes and IoT systems are becoming increasingly common. Even without a backend or physical LED, the project helps build a strong understanding of how user interactions on a web page can translate into control commands. In real use cases, these HTML buttons would communicate with a server or microcontroller, which would then perform actions such as switching a relay or turning on an actual LED.Overall, this project is a simple yet meaningful demonstration of how HTML and JavaScript can be used to create functional, interactive user interfaces for smart devices. It highlights the role of frontend technologies in IoT systems and lays the groundwork for integrating backend logic and hardware in the future. The choice to use only HTML in Visual Studio Code keeps the project lightweight, platform-independent, and easy to deploy across different browsers and devices. This makes it a great starting point for students, interns, and hobbyists exploring smart control systems and web-based automation.
